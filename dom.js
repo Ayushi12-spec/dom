@@ -85,4 +85,13 @@ for(let i=0;i<odd.length;i++)
     odd[i].style.backgroundColor ="lightGrey"
 }
 // same we can go for even
+function Ayushi(event){
+    event.preventDefault();
+    let a=document.getElementById("click").value
+    var b=document.getElementById("items")
+    var c=document.createElement("li")
+    c.textContent=a;
+    a.className="list-group-item";
+    b.appendChild(c);
+}
 
